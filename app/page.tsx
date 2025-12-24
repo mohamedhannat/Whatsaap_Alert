@@ -1565,7 +1565,7 @@ function LoginPage({ onLogin }: { onLogin: (token: string, username: string) => 
             <Shield className="w-10 h-10 text-white" />
           </div>
           <h1 className="text-3xl font-bold text-white">
-            <span className="text-blue-400">FALCON</span>X
+            <span className="text-blue-400">NommasConnect</span>
           </h1>
           <p className="text-slate-500 mt-2">Safety Alert System</p>
         </div>
@@ -1867,8 +1867,8 @@ function Dashboard({ username, onLogout }: { username: string; onLogout: () => v
               <Shield className="w-7 h-7" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold"><span className="text-blue-400">FALCON</span>X</h1>
-              <p className="text-xs text-slate-500">Safety Alert System</p>
+              <h1 className="text-2xl font-bold"><span className="text-blue-400">Nommas</span>Connect</h1>
+              <p className="text-xs text-slate-500">Alert System</p>
             </div>
           </div>
           <div className="flex items-center gap-4">
